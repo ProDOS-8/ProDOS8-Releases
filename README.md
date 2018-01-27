@@ -1,2 +1,2 @@
 # Info
-ProDOS 8 Infos
+Apple ProDOS 8 Infos
