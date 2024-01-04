@@ -1,0 +1,33 @@
+# Site settings
+title: 'ProDOS 8 Releases'
+email: jbrooks@blueshiftinc.com
+description: Releases of the ProDOS-8 operating system for Apple II computers.
+baseurl: ""
+url: "http://releases.prodos8.com"
+twitter_username: JBrooksBSI
+github_username:  ProDOS-8
+
+theme: "jekyll-theme-minimal"
+show_downloads: false
+google_analytics: "UA-125779998-1"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+relative_permalinks: false
+
+exclude: 
+  - .git
+  - .gitignore
+  - .sass-cache
+  - Gemfile
+  - gruntfile.js
+  - gulpfile.js
+  - node_modules
+  - package-lock.json
+  - package.json
+  - Rakefile
+  - README.md
+  - s3_website.yml
+  - sass
